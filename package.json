@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack",
+    "serve": "webpack --watch"
+  },
+  "dependencies": {
+    "compass": "^0.1.1",
+    "css-loader": "^5.2.6",
+    "glob": "^7.1.7",
+    "sass": "^1.34.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "devDependencies": {
+    "css-minimizer-webpack-plugin": "^3.0.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack-fix-style-only-entries": "^0.6.1"
+  }
+}
